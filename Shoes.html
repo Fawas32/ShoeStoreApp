@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Shoes.css">
+    <title>Crep Shop</title>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Shoes.html">Shoes</a></li>
+        <li><a href="Products.html">Jumpers</a></li>
+    </ul>
+</head>
+<body>
+
+Search Shoes: <input type="text" id="code">
+  <button type="button" name="button" onclick="loadData()">Search Shoes</button>
+<table id="results">
+
+</table>
+
+<script type="text/javascript">
+    async function loadData() {
+      var data = await fetch("Shoes.xml")
+      var parsedData = await data.text()
+
+      var parser = new DOMParser();
+      var Shoes_document = parser.parseFromString(parsedData,"text/xml");
+      var table="<tr><th>Category</th><th>Code</th><th>Name</th><th>description</th><th>Quantity</th><th>Unit Price</th></tr>";
+      var results = ""
+      var code_input = (document.getElementById("code").value)
+      var Shoes = Shoes_document.getElementsByTagName("product")
+
+      for(var i = 0; i <Shoes.length; i++) {
+        var category = Shoes[i].getElementsByTagName("category")[0].childNodes[0].nodeValue
+        var code = Shoes[i].getElementsByTagName("code")[0].childNodes[0].nodeValue
+        var name =Shoes[i].getElementsByTagName("name")[0].childNodes[0].nodeValue
+        var description = Shoes[i].getElementsByTagName("description")[0].childNodes[0].nodeValue
+        var quantity = Shoes[i].getElementsByTagName("quantity")[0].childNodes[0].nodeValue
+        var unit_price = Shoes[i].getElementsByTagName("unit_price")[0].childNodes[0].nodeValue
+
+        if(code_input === (code)) {
+
+            table += "<tr><td>" +
+
+            category+ "</td><td>" +
+
+            code+ "</td><td>" +
+
+            name+ "</td><td>" +
+
+            description+ "</td><td>" +
+
+            quantity+ "</td><td>" +
+
+            unit_price+ "</td></tr>";
+
+
+        }
+
+      }
+
+      document.getElementById("results").innerHTML = table
+    }
+  </script>
+    
+
+</body>
+</html>

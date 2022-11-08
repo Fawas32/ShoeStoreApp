@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shoes>
+    <product>
+        <category>Men's Footwear</category>
+        <code>101-01</code>
+        <name>Nike Air Max 90s</name> 
+        <description>
+            Known as the Air Max III until 2000, when it was reissued taking its name from the year of its launch.
+        </description> 
+        <quantity>200</quantity> 
+        <unit_price>25.0</unit_price> 
+    </product>
+
+    <product>
+        <category>Men's Footwear</category>
+        <code>101-02</code>
+        <name>Nike Air Force 1s Low/Mid/High-top</name> 
+        <description>
+            The shoe you must have in your collection.
+        </description> 
+        <quantity>200</quantity> 
+        <unit_price>30.0</unit_price> 
+    </product>
+
+    <product>
+        <category>Men's Footwear</category>
+        <code>101-03</code>
+        <name>Adidas Yeezy 700</name> 
+        <description>
+            If you like Kayne west you will buy this
+        </description> 
+        <quantity>200</quantity> 
+        <unit_price>11.0</unit_price> 
+    </product>
+
+        <product>
+        <category>Men's Footwear</category>
+        <code>101-04</code>
+        <name>Air Jordan 4 Retro Black Cat 2020</name> 
+        <description>
+            An essential shoe
+        </description> 
+        <quantity>200</quantity> 
+        <unit_price>69.0</unit_price> 
+    </product>
+
+    <product>
+            <category>Men's Footwear</category>
+            <code>101-05</code>
+            <name>Jordan 1 Chicago</name> 
+            <description>
+                Undoubtedly the most popular and best Jordans of all time.
+            </description> 
+            <quantity>200</quantity> 
+            <unit_price>79.0</unit_price> 
+        </product>
+
+    <product>
+            <category>Men's Footwear</category>
+            <code>101-06</code>
+            <name>Jordan 3 Black Cement</name> 
+            <description>
+                It was the first time the original ‘Nike Air” branding was featured on the Black Cement since its 2001 incarnation.
+            </description> 
+            <quantity>200</quantity> 
+            <unit_price>57.0</unit_price> 
+        </product>
+
+    <product>
+            <category>Men's Footwear</category>
+            <code>101-07</code>
+            <name>Jordan 5 Fire Red</name> 
+            <description>
+                The 5 Fire Red Retro OG is one of the newest pieces in the Air Jordan portfolio.
+            </description> 
+            <quantity>200</quantity> 
+            <unit_price>61.0</unit_price> 
+        </product>
+
+    <product>
+            <category>Men's Footwear</category>
+            <code>101-08</code>
+            <name>Jordan 4 ‘Bred’ Black Cement</name> 
+            <description>
+                They say a classic never dies, and the Air Jordan 4 is one example of true longevity.
+            </description> 
+            <quantity>200</quantity> 
+            <unit_price>43.0</unit_price> 
+        </product>
+
+    <product>
+            <category>Men's Footwear</category>
+            <code>101-09</code>
+            <name>Jordan 11 Concord</name> 
+            <description>
+                Michael Jordan stepped onto the court and into sneaker history with this now iconic pair of Air Jordan XIs.
+            </description> 
+            <quantity>200</quantity> 
+            <unit_price>12.0</unit_price> 
+        </product>
+
+    <product>
+            <category>Men's Footwear</category>
+            <code>101-10</code>
+            <name>Jordan 6 Black Infrared</name> 
+            <description>
+                INFRARED is pretty much the ultimate Air Jordan sneaker. 
+            </description> 
+            <quantity>200</quantity> 
+            <unit_price>34.0</unit_price> 
+        </product>
+
+    
+    
+</shoes>
